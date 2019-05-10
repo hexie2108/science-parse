@@ -1,4 +1,3 @@
-resolvers += Resolver.sbtPluginRepo("releases")
 
 
 
@@ -8,4 +7,5 @@ addSbtPlugin("com.jsuereth" % "sbt-pgp" % "1.1.2-1")
 
 addSbtPlugin("org.foundweekends" % "sbt-bintray" % "0.5.4")
 
-addSbtPlugin("com.typesafe.sbt" % "sbt-native-packager" % "0.8.0")
+addSbtPlugin("com.typesafe.sbt" % "sbt-native-packager" % "1.3.21")
+
