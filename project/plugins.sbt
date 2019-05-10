@@ -1,7 +1,5 @@
-resolvers += Resolver.url(
-    "sbt-plugin-releases on bintray",
-    new URL("https://dl.bintray.com/sbt/sbt-plugin-releases/")
-  )(Resolver.ivyStylePatterns)
+resolvers += Resolver.sbtPluginRepo("releases")
+
 
 
 addSbtPlugin("com.eed3si9n" % "sbt-assembly" % "0.14.9")
