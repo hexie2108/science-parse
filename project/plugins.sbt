@@ -1,3 +1,6 @@
+resolvers += Resolver.url("bintray-sbt-plugins", url("https://dl.bintray.com/sbt/sbt-plugin-releases/"))(Resolver.ivyStylePatterns) 
+
+
 addSbtPlugin("com.eed3si9n" % "sbt-assembly" % "0.14.9")
 
 addSbtPlugin("com.jsuereth" % "sbt-pgp" % "1.1.2-1")
