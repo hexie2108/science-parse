@@ -43,3 +43,5 @@ lazy val server = (project in file("server")).
   settings(
     commonSettings
   ).dependsOn(core)
+
+enablePlugins(JavaServerAppPackaging)
